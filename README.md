@@ -37,7 +37,6 @@ $ git-recall --month -2        # last 2 months
 $ git-recall --day > recap.txt # pipe to file
 ```
 
-[![winget](https://img.shields.io/badge/winget-AMMAAR--IC.git--recall-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/microsoft/winget-pkgs)
 [![APT PPA](https://img.shields.io/badge/PPA-ammaar--apt%2Fgit--recall-E95420?style=flat-square&logo=ubuntu&logoColor=white)](https://launchpad.net/~ammaar-apt/+archive/ubuntu/git-recall)
 
 ---
