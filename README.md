@@ -52,6 +52,7 @@ $ paimon --code -ls
 ```
 
 [![winget](https://img.shields.io/badge/winget-Ammaar.Paimon-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/microsoft/winget-pkgs)
+[![npm](https://img.shields.io/badge/npm-paimon--npm-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/paimon-npm)
 
 ---
 
@@ -63,6 +64,8 @@ Modular Python CLI toolkit. Debug smarter with plain-English error explanations,
 $ letxDebug -a my_script.py    # run + explain + suggest fix
 $ letxFix -rm -cmt src/        # strip all comments from a folder
 ```
+
+[![PyPI](https://img.shields.io/badge/PyPI-letx-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/letx/)
 
 ---
 
