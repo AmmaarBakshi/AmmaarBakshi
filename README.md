@@ -41,7 +41,7 @@ $ git-recall --day > recap.txt # pipe to file
 
 ---
 
-**[paimon](https://github.com/AMMAAR-IC/paimon)** `Rust`
+**[paimon](https://github.com/AMMAAR-IC/paimon)** `Rust` `JavaScript`
 
 Keyboard-driven Rust TUI for injecting code snippets and project structures into your working directory instantly. Snippets are embedded inside the binary at compile time — no internet, no Python, nothing extra needed.
 
