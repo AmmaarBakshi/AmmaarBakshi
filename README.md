@@ -4,10 +4,10 @@
 
 *"I don't wait to understand everything before I build — I build until I understand everything."*
 
-[![GitHub](https://img.shields.io/badge/GitHub-AMMAAR--IC-181717?style=flat-square&logo=github)](https://github.com/AMMAAR-IC)
+[![GitHub](https://img.shields.io/badge/GitHub-AmmaarBakshi-181717?style=flat-square&logo=github)](https://github.com/AmmaarBakshi)
 [![PyPI](https://img.shields.io/badge/PyPI-letx-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/letx)
 [![winget](https://img.shields.io/badge/winget-git--recall-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/microsoft/winget-pkgs)
-[![Profile Views](https://komarev.com/ghpvc/?username=AMMAAR-IC&style=flat-square&color=6e40c9&label=profile+views)](https://github.com/AMMAAR-IC)
+[![Profile Views](https://komarev.com/ghpvc/?username=AmmaarBakshi&style=flat-square&color=6e40c9&label=profile+views)](https://github.com/AmmaarBakshi)
 
 </div>
 
@@ -27,7 +27,7 @@ Developer who goes deep — pure C tools that ship on winget and apt, Rust TUIs,
 
 ### 🔧 Featured Projects
 
-**[git-recall](https://github.com/AMMAAR-IC/git-recall)** `C`
+**[git-recall](https://github.com/AmmaarBakshi/git-recall)** `C`
 
 Personal git standup tool written in pure C. See what you committed by day, week, month, or year. No dependencies — just git. Ships on both **winget** and an **Ubuntu PPA**.
 
@@ -41,7 +41,7 @@ $ git-recall --day > recap.txt # pipe to file
 
 ---
 
-**[paimon](https://github.com/AMMAAR-IC/paimon)** `Rust` `JavaScript`
+**[paimon](https://github.com/AmmaarBakshi/paimon)** `Rust` `JavaScript`
 
 Keyboard-driven Rust TUI for injecting code snippets and project structures into your working directory instantly. Snippets are embedded inside the binary at compile time — no internet, no Python, nothing extra needed.
 
@@ -55,7 +55,7 @@ $ paimon --code -ls
 
 ---
 
-**[letx](https://github.com/AMMAAR-IC/letx)** `Python`
+**[letx](https://github.com/AmmaarBakshi/letx)** `Python`
 
 Modular Python CLI toolkit. Debug smarter with plain-English error explanations, get fix suggestions, and clean your codebase — all from the terminal.
 
@@ -68,7 +68,7 @@ $ letxFix -rm -cmt src/        # strip all comments from a folder
 
 ---
 
-**[ASSAMBLY](https://github.com/AMMAAR-IC/ASSAMBLY)** `x86 Assembly`
+**[ASSAMBLY](https://github.com/AmmaarBakshi/ASSAMBLY)** `x86 Assembly`
 
 63 Assembly programs written register-by-register — animated ASCII bouncing balls, a desktop-lite shell, quadratic equation graph visualizations, GCD, Hamming weight. Most devs skip this layer. I didn't.
 
@@ -89,8 +89,8 @@ $ letxFix -rm -cmt src/        # strip all comments from a folder
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=AMMAAR-IC&theme=tokyonight&hide_border=true" height="150" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AMMAAR-IC&theme=tokyo-night&hide_border=true&area=true" height="150" />
+  <img src="https://streak-stats.demolab.com?user=AmmaarBakshi&theme=tokyonight&hide_border=true" height="150" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmmaarBakshi&theme=tokyo-night&hide_border=true&area=true" height="150" />
 </div>
 
 ---
