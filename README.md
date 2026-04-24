@@ -1,7 +1,7 @@
 <div align="center">
   <img 
     width="100%" 
-    src="https://github.com/AmmaarBakshi/AmmaarBakshi/raw/main/trajectoriesOfGravity.jpg"
+    src="https://github.com/AmmaarBakshi/AmmaarBakshi/raw/main/TrajectoriesInGravity.webp"
     alt="Trajectories of Gravity — physics equations and galaxy illustration"
   />
   <br>
