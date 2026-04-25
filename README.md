@@ -5,7 +5,7 @@
     alt="Trajectories of Gravity — physics equations and galaxy illustration"
   />
   <br>
-Ammaar Bakshi
+<h1> Ammaar Bakshi</h1>
 
 *"I don't wait to understand everything before I build — I build until I understand everything."*
 
