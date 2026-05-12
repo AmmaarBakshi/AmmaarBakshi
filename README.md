@@ -4,8 +4,13 @@
     src="https://github.com/AmmaarBakshi/AmmaarBakshi/raw/main/TrajectoriesInGravity.webp"
     alt="Trajectories of Gravity — physics equations and galaxy illustration"
   />
-  <br>
-<h1> Ammaar Bakshi</h1>
+</div>
+
+<br/>
+
+<div align="center">
+
+# Ammaar Bakshi
 
 *"I don't wait to understand everything before I build — I build until I understand everything."*
 
@@ -20,28 +25,45 @@
 
 ---
 
-Every trajectory has equations behind it. Mine runs through pure C, Rust TUIs, x86 Assembly written register-by-register, and Python tooling that ships to real package managers. I don't wait for permission to explore a new layer of the stack — if it compiles (or doesn't), I want to know exactly why.
+Every trajectory has equations behind it. Mine runs through pure C, a hand-rolled Rust shell with its own lexer and AST, x86 Assembly written register-by-register, and Python tooling that ships to real package managers. I don't wait for permission to explore a new layer of the stack — if it compiles (or doesn't), I want to know exactly why.
 
 ---
 
-## 📦 PyPI Package
-
-| Package | What it does | Install |
-|---------|-------------|---------|
-| [**letx**](https://pypi.org/project/letx) | Modular Python developer toolkit — smarter debugging, plain-English error explanations, and code cleaning from the terminal | `pip install letx` |
+## Projects
 
 ---
 
-## 🔧 Projects
+### [⚗️ oxide](https://github.com/AmmaarBakshi/oxide) `Rust`
 
-**[git-recall](https://github.com/AmmaarBakshi/git-recall)** `C`
+A custom, high-performance shell written entirely in Rust — not a wrapper around existing system calls, but a full pipeline built from scratch.
 
-Personal git standup tool written in pure C. See what you committed by day, week, month, or year. No dependencies — just git. Ships on both **winget** and an **Ubuntu PPA**.
+Raw text flows through a custom **Lexer** → **Parser** → **AST** → **Execution Engine**. Architected as a Cargo Workspace to keep every layer strictly decoupled:
+
+| Crate | Role |
+|---|---|
+| `oxide-cli` | Entry point and terminal UI |
+| `oxide-core` | REPL loop and state manager |
+| `oxide-parser` | Lexer, grammar, and AST generation |
+| `oxide-builtins` | Native shell commands (`cd`, `echo`, etc.) |
+
+**Features:** custom lexing & parsing · process execution · output redirection (`>`) · dynamic prompt · built-in command interception
+
+```bash
+git clone https://github.com/AmmaarBakshi/oxide.git
+cd oxide
+cargo run -p oxide-cli
+```
+
+---
+
+### [📅 git-recall](https://github.com/AmmaarBakshi/git-recall) `C`
+
+Personal git standup tool written in pure C — no dependencies, just git. See exactly what you committed by day, week, month, or year. Ships on both **winget** and an **Ubuntu PPA**.
 
 ```bash
 $ git-recall --week
-$ git-recall --month -2        # last 2 months
-$ git-recall --day > recap.txt # pipe to file
+$ git-recall --month -2        # two months back
+$ git-recall --day > recap.txt # pipe anywhere
 ```
 
 [![winget](https://img.shields.io/badge/winget-Ammaar.git--recall-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/microsoft/winget-pkgs)
@@ -49,7 +71,7 @@ $ git-recall --day > recap.txt # pipe to file
 
 ---
 
-**[paimon](https://github.com/AmmaarBakshi/paimon)** `Rust` `JavaScript`
+### [🗡️ paimon](https://github.com/AmmaarBakshi/paimon) `Rust` `JavaScript`
 
 Keyboard-driven Rust TUI for injecting code snippets and project structures into your working directory instantly. Snippets are embedded inside the binary at compile time — no internet, no Python, nothing extra needed.
 
@@ -63,9 +85,9 @@ $ paimon --code -ls
 
 ---
 
-**[letx](https://github.com/AmmaarBakshi/letx)** `Python`
+### [🔧 letx](https://github.com/AmmaarBakshi/letx) `Python`
 
-Modular Python CLI toolkit. Debug smarter with plain-English error explanations, get fix suggestions, and clean your codebase — all from the terminal.
+Modular Python CLI toolkit. Debug smarter with plain-English error explanations, get fix suggestions, and clean your codebase — all from the terminal. Ships on PyPI.
 
 ```bash
 $ letxDebug -a my_script.py    # run + explain + suggest fix
@@ -76,17 +98,17 @@ $ letxFix -rm -cmt src/        # strip all comments from a folder
 
 ---
 
-**[ASSAMBLY](https://github.com/AmmaarBakshi/ASSAMBLY)** `x86 Assembly`
+### [🖥️ ASSAMBLY](https://github.com/AmmaarBakshi/ASSAMBLY) `x86 Assembly`
 
-63 Assembly programs written register-by-register — animated ASCII bouncing balls, a desktop-lite shell, quadratic equation graph visualizations, GCD, Hamming weight. Most devs skip this layer. I didn't.
+63 Assembly programs written register-by-register — animated ASCII bouncing balls, a desktop-lite shell, quadratic equation graph visualizations, GCD, Hamming weight. Most devs skip this layer entirely. I didn't.
 
 ---
 
-## 🛠 Stack
+## Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Assembly](https://img.shields.io/badge/x86_Assembly-6E4C13?style=flat-square)
 ![HTML5](https://img.shields.io/badge/HTML%2FCSS%2FJS-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -94,7 +116,7 @@ $ letxFix -rm -cmt src/        # strip all comments from a folder
 
 ---
 
-## 📊 Stats
+## Stats
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=AmmaarBakshi&theme=tokyonight&hide_border=true" height="150" />
