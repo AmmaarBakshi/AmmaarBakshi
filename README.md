@@ -20,7 +20,7 @@
 [![PyPI](https://img.shields.io/badge/PyPI-letx-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/letx)
 [![winget](https://img.shields.io/badge/winget-git--recall-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/microsoft/winget-pkgs)
 [![Profile Views](https://komarev.com/ghpvc/?username=AmmaarBakshi&style=flat-square&color=4a9eff&label=profile+views)](https://github.com/AmmaarBakshi)
-
+[![committers.top badge](https://user-badge.committers.top/india/AmmaarBakshi.svg)](https://user-badge.committers.top/india/AmmaarBakshi)
 </div>
 
 ---
