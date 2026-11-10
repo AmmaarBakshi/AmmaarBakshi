@@ -4,7 +4,7 @@
     src="https://github.com/AmmaarBakshi/AmmaarBakshi/raw/main/TrajectoriesInGravity.webp"
     alt="Trajectories of Gravity — physics equations and galaxy illustration"
   />
-</div>
+</div>  
 
 <br/>
 
